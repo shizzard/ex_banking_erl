@@ -7,6 +7,15 @@
 
 ## Running under elixir
 
+In `mix.exs`:
+```
+  defp deps do
+    [
+      {:ex_banking, github: "shizzard/ex_banking_erl", manager: :rebar3}
+    ]
+  end
+```
+
 In `config/config.exs`:
 ```
 ...
